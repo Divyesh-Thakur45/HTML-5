@@ -1,0 +1,38 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+.box-1
+{
+    height: 10vh;
+    width: 30%;
+    background-color: aqua;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+
+}
+.box-1 p
+{
+    line-height: 10vh;
+    text-align: center;
+    font-size: 25px;
+    
+}
+.child
+{
+    height: 10vh;
+    width:0%;
+    background-color: blueviolet;
+    position: absolute;
+    top: 0%;
+    
+}
+.box-1:hover .child
+{
+    width: 100%;
+    transition: 0.5s;
+    z-index: -1;
+}

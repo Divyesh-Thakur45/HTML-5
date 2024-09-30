@@ -1,0 +1,42 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'popping',sans-serif;
+}
+.Nav
+{
+    background-color: black;
+    height: 40px;
+    width: 80%;
+    margin: auto;
+}
+ul li
+{
+    float: left;
+    width: 203.4px;
+    border: 1px solid white;
+    line-height: 40px;
+    text-align: center;
+}
+ul li ul li
+{
+    background-color: black;
+    border: none;
+}
+ul li ul li
+{
+    display: none;
+}
+ul li:hover ul li
+{
+    display: block;
+}
+ul li a:hover
+{
+    background-color: aqua;
+    color: black;
+    display: block;
+}

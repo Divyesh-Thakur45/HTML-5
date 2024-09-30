@@ -1,0 +1,598 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Poppins';
+    list-style: none;
+    text-decoration: none;
+    transition: 0.5s;
+}
+body
+{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('img/uncity.jfif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.main
+{
+    width: 100%;
+}
+.nav
+{
+    width: 80%;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+.nav img
+{
+    width: 10%;
+    margin-top: 1%;
+}
+.nav ul li
+{
+    float: left;
+    padding: 10px;
+
+}
+.nav ul li a
+{
+    color: white;
+}
+li::after
+{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background-color: red;
+    margin: auto;
+    display: block;
+    transition: 0.5s;
+}
+li:hover::after
+{
+
+    width: 100%;
+
+}
+.content
+{
+    
+    width: 80%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    text-align: center;
+
+}
+.content h1
+{
+    color: white;
+    margin-bottom: 1%;
+}
+.content p
+{
+    color: white;
+    margin-bottom: 2%;
+}
+.btn a
+{
+    border: 1px solid white;
+    color: white;
+    padding: 8px;
+}
+.btn a:hover
+{
+    background-color: red;
+    transition: 0.5s;
+    border: none;
+}
+.course 
+{
+    width: 80%;
+    height: 100px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 140%;
+}
+.course h3
+{
+    text-align: center; 
+    color: blueviolet;  
+}
+.course p
+{
+    text-align: center;
+    line-height: 2;
+    color: blueviolet;
+}
+.box-1 h5
+{
+    text-align: center;
+    font-size: 14px;
+    color: blueviolet;
+}
+.box-1 p
+{
+    line-height: 1.5;
+    text-align: justify;
+    margin-top: 10px;
+}
+.box-1
+{
+    height: 110px;
+    width: 30%;
+    background-color: lightgray;
+    border-radius: 10px;
+    padding: 10px;
+    position: relative;
+    box-shadow: 7px 5px 10px;
+}
+.main-box
+{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    position: absolute;
+    top: 150%;
+    left: 5%;
+}
+.Branch
+{
+    width: 80%;
+    height: 100px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 200%;
+}
+.Branch h3
+{
+    text-align: center; 
+    color: blueviolet;  
+}
+.Branch p
+{
+    text-align: center;
+    line-height: 5;
+}
+.our-branch
+{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    position: absolute;
+    top: 210%;
+    left: 5%;
+}
+.our-branch .branch-1
+{
+    height: 200px;
+    width: 32%;
+    position: relative;
+}
+.our-branch .branch-1 img
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.child
+{
+    position: absolute;
+    top:0%;
+    left: 0%;
+    background-color: rgba(231, 25, 25, 0.5);
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    color: white;
+    display: none;
+}
+.child h3
+{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 90%;
+}
+.branch-1:hover .child
+{
+    display: block;
+}
+.child:hover h3
+{
+    top: 50%;
+    transition: 0.6s;
+}
+.facilies
+{
+    width: 80%;
+    height: 100px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 260%;
+}
+.facilies h3
+{
+    text-align: center; 
+    color: blueviolet;  
+}
+.facilies-img
+{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    position: absolute;
+    top: 260%;
+    left: 5%;
+}
+.facilies-img .image-1
+{
+    height: 200px;
+    width: 32%;
+}
+.facilies-img .image-1 img
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.box-2 p
+{
+    line-height: 1.5;
+    text-align: justify;
+    margin-top: 10px;
+}
+.box-2
+{
+    height: 80px;
+    width: 30%;
+    background-color: lightgray;
+    border-radius: 10px;
+    padding: 10px;
+    position: relative;
+    box-shadow: 7px 5px 10px;
+}
+.main-content
+{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    position: absolute;
+    top: 295%;
+    left: 5%;
+}
+.review
+{
+    width: 80%;
+    height: 100px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 330%;
+}
+.review h3
+{
+    text-align: center; 
+    color: blueviolet;  
+}
+.comment
+{
+    height: 25vh;
+    width: 35%;
+    background-color: lightgray;
+    border-radius: 10px;
+    position: absolute;
+    top: 330%;
+    left: 10%;
+    box-shadow: 7px 5px 10px;
+    padding: 10px;
+}
+.comment img
+{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    float: left;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.comment h4
+{
+    position: relative;
+    top: 25px;
+}
+.star
+{
+    position: absolute;
+    top: 43%;
+    color: yellow;
+}.comment p
+{
+    font-size: 14px;
+    position: absolute;
+    top: 53%;
+    left: 0%;
+    text-align: justify;
+    padding: 10px;
+}
+.comment-1
+{
+    height: 25vh;
+    width: 35%;
+    background-color: lightgray;
+    border-radius: 10px;
+    position: absolute;
+    top: 330%;
+    right: 10%;
+    box-shadow: 7px 5px 10px;
+    padding: 10px;
+}
+.comment-1 img
+{
+    height: 45px;
+    width: 50px;
+    border-radius: 50%;
+    float: left;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.comment-1 h4
+{
+    position: relative;
+    top: 25px;
+}
+.star-1
+{
+    position: absolute;
+    top: 43%;
+    color: yellow;
+}.comment-1 p
+{
+    font-size: 14px;
+    position: absolute;
+    top: 53%;
+    left: 0%;
+    text-align: justify;
+    padding: 10px;
+}
+.location
+{
+    width: 90%;
+    height: 10vh;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+
+}
+.location i
+{
+    background-color: rgb(166, 166, 237);
+    color: rgb(76, 76, 226);
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+    float: left;
+    position: relative;
+    top: 10%;
+
+}
+.location h4
+{
+    position: relative;
+    left: 5%;
+    top: 3%;
+}
+.location p
+{
+    position: relative;
+    left: 5%;
+}
+.email
+{
+    width: 90%;
+    height: 10vh;
+    position: absolute;
+    top: 20%;
+    left: 20px;
+    
+}
+.email i
+{
+    background-color: rgb(166, 166, 237);
+    color: rgb(76, 76, 226);
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+    float: left;
+    position: relative;
+    top: 10%;
+
+}
+.email h4
+{
+    position: relative;
+    left: 5%;
+    top: 3%;
+}
+.email p
+{
+    position: relative;
+    left: 5%;
+}
+.phone
+{
+    width: 90%;
+    height: 10vh;
+    position: absolute;
+    top: 36%;
+    left: 20px;
+
+}
+.phone i
+{
+    background-color: rgb(166, 166, 237);
+    color: rgb(76, 76, 226);
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+    float: left;
+    position: relative;
+    top: 10%;
+
+}
+.phone h4
+{
+    position: relative;
+    left: 5%;
+    top: 3%;
+}
+.phone p
+{
+    position: relative;
+    left: 5%;
+}
+.map 
+{
+    width: 90%;
+    height: 47%;
+    position: relative;
+    left: 5%;
+    top: 50%;
+}
+.map iframe
+{
+    width: 100%;
+    height: 100%;
+}
+.main-footer
+{
+    width: 90%;
+    height: 80vh;
+    position: absolute;
+    top: 380%;
+    left: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.left
+{
+    width: 45%;
+    height: 80vh;
+    background-color: #ffff;
+    position: relative;
+    box-shadow: 7px 5px 10px;    
+}
+.right
+{
+    margin-left: 3%;
+    width: 70%;
+    height: 80vh;
+    background-color: #ffff;
+    position: relative;
+    box-shadow: 7px 5px 10px;
+}
+.main-layer
+{
+    width: 90%;
+    height: 70vh;
+    margin: 5% auto;
+}
+.name
+{
+    float: left;
+}
+.name h4
+{
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'popping' , sans-serif;
+}
+.name input
+{
+    width: 165%;
+    height: 25px;
+    outline: none;
+}
+.your
+{
+    margin-left: 50%;
+
+}
+.your h4
+{
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'popping' , sans-serif;
+}
+.your input
+{
+    width: 100%;
+    height: 25px;
+    outline: none;
+}
+.subjet
+{
+    margin-top: 25px;
+}
+.subjet h4
+{
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'popping' , sans-serif;
+}
+.subjet input
+{
+    width: 100%;
+    height: 25px;
+    outline: none;
+}
+.massage
+{
+    margin-top: 25px;
+}
+.massage h4
+{
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'popping' , sans-serif;
+}
+.massage input
+{
+    width: 100%;
+    height: 30vh;
+    outline: none;
+}
+.btn-2
+{
+
+    width: 100%;
+    text-align: center;
+    line-height: 15vh;
+    
+}
+.btn-2 a
+{
+    padding: 1%;
+    border-radius: 2px;
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+    background-color: rgb(94, 94, 247);
+}

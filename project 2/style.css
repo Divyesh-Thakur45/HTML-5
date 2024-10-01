@@ -1,0 +1,76 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body
+{
+    background-image: url('img/bg3.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    
+}
+.box-1
+{
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 40%; 
+    transform: translate(-50%,-50%);
+    position: absolute;
+    top: 40%;
+    left: 50%;
+     
+}
+.box-2
+{
+    
+    width: 30%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: white;
+  
+}
+.box-2 p
+{
+    font-family: 'Dancing Script', cursive;
+    text-align: justify;
+    margin: auto;
+    border: 5px solid silver;
+    padding: 20px; 
+    color: black;
+}
+.box-2 p:hover 
+{
+    backdrop-filter: blur(80px);
+    background-color: black;
+    color: white;
+}
+
+.btn
+{
+    transform: translate(-50%,-50%);
+    position: absolute;
+    top: 62%;
+    left: 50%;
+}
+a
+{
+    padding: 10px;
+    border: 2px solid black;
+    margin: 20px;
+    background-color: aqua;
+    text-decoration: none;
+    border-radius: 5px;
+}
+a:hover
+{
+    background-color: black;
+    color: white;
+}

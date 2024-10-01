@@ -1,0 +1,45 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.main
+{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.box-1 img
+{
+    height: 40vh;
+    
+}
+.box-1 .course-colum
+{
+    height: 40vh;
+    width: 28.3%;
+    background-color: rgba(122, 0, 0, 0.7);
+    opacity: 0;
+    position: absolute;
+    top: 0%;
+}
+.course-colum h3
+{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    bottom: 0%;
+    left: 50%;
+    transition: 0.5s;
+}
+.course-colum:hover
+{
+    opacity: 1;
+    bottom: 50%;
+
+}
+.course-colum:hover h3
+{
+    bottom: 40%;
+}
